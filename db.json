@@ -1,14 +1,57 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+    {
+        id: 1,
+        externalId: "",
+        mediaType: `OTT`,
+        vendorName: "FWNY-DV",
+        daypart:null,
+        dayPartCode: "",
+        programPackage: "This great package",
+        demoRatingsBook:"New York Nov19 DAR",
+        totalDollarsNet:3400,
+        totalDollarsGross: 60,
+        rating:null,
+        impressions:100,
+        cpmNet: 50,
+        cpmGross: 34.00,
+        reach:"2.7",
+        frequency:"8.4%",
+        demo: "18-49",
+        population:35000,
+        flightDate: {
+            "startDate": "2020-04-06T03:00:00Z",
+            "endDate": "2020-04-26T02:59:00Z"
+          },
+        spots: null
+    },
+    {
+        id: 2,
+        externalId: "",
+        mediaType: `SPOT TV`,
+        vendorName: "FWNY-DV",
+        daypart:"M-F 11p -11:30p",
+        dayPartCode: "",
+        programPackage: "This great package",
+        demoRatingsBook:"New York Nov19 DAR",
+        totalDollarsNet:3400,
+        totalDollarsGross: 60,
+        rating:2.4,
+        impressions:100,
+        cpmNet: 50,
+        cpmGross: 28.00,
+        reach:"2.7%",
+        frequency:1.1,
+        demo: "18-49",
+        population:35000,
+        flightDate: {
+            "startDate": "2020-04-06T03:00:00Z",
+            "endDate": "2020-04-26T02:59:00Z"
+          },
+          spots: [
+            {
+              "date": "2020-04-07T03:00:00Z",
+              "numberOfSpots": 3
+            }
+        ]
+    }
+]
